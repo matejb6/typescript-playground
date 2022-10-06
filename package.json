@@ -1,6 +1,6 @@
 {
   "name": "typescript-custom-setup",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Standalone TypeScript app extended with additional libraries and setup to help develop better apps",
   "main": "main.js",
   "scripts": {
