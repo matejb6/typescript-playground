@@ -1,0 +1,29 @@
+{
+  "name": "typescript-custom-setup",
+  "version": "0.0.0",
+  "description": "Standalone TypeScript app extended with additional libraries and setup to help develop better apps",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matejb6/typescript-custom-setup.git"
+  },
+  "keywords": [
+    "matejb6"
+  ],
+  "author": {
+    "name": "Matej Buljan",
+    "email": "matejb6@icloud.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matejb6/typescript-custom-setup/issues"
+  },
+  "homepage": "https://github.com/matejb6/typescript-custom-setup#readme",
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  }
+}
