@@ -5,6 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start": "tsc && node ./dist/main.js",
+    "prettier:check": "prettier --check ./src",
+    "prettier:write": "prettier --write ./src",
     "lint": "eslint ./src/**/*.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
