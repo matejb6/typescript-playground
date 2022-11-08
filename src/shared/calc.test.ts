@@ -14,6 +14,6 @@ describe('Calc', () => {
   });
 
   test('divides two numbers', () => {
-    expect(Calc.multiply(6, 2)).toBe(3);
+    expect(Calc.divide(6, 2)).toBe(3);
   });
 });
