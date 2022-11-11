@@ -32,7 +32,7 @@ The app was created manually by initializing npm and adding packages and setup.
 * `prettier:check`: Checks code formatting with Prettier
 * `prettier:write`: Formats code with Prettier
 * `lint`: Lints code with ESLint
-* `test`: Tests app
+* `test`: Tests app with Jest
 * `prepare`: Prepare script to install Husky
 
 ## GitHub Actions
@@ -52,21 +52,24 @@ To commit code successfully, check `Prettier` and `Lint` paragraphs of this file
 * npm v6.0 and higher
 
 ## Setup
-* In project root run `npm install` to install dependencies
+* In root run `npm install` to install dependencies
 * Script `prepare` should run with `npm install` to install husky, if not, run `npm run prepare`
 
 ## Start
-Runs the app with node.
+* In root run `npm start` to run the app with node
 
 ## Build
-Builds app by output JavaScript code in `.dist` folder.
+* In root run `npm run build` to build the app, outputs JavaScript code in `.dist` folder
 
 ## Prettier
-* In project root run `npm run prettier:check` to check if files are formatted
-* In project root run `npm run prettier:write` to format files
+* In root run `npm run prettier:check` to check if files are formatted with [Prettier](https://prettier.io)
+* In root run `npm run prettier:write` to format files
 
 ## Lint
-* In project root run `npm run lint` to lint the project
+* In root run `npm run lint` to lint the app with [ESLint](https://eslint.org)
+
+## Test
+* In root run `npm test` to execute the unit tests via [Jest](https://jestjs.io)
 
 ## New version
 * Go to GitHub repo
