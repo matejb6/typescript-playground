@@ -8,21 +8,16 @@
 
 ## About
 A TypeScript app extended with additional libraries and setup to help develop better apps.
-Main idea is to present a standalone TypeScript app with additional setup so developers can have it as a reference.
+Main idea is to present a TypeScript app with additional setup and practices as a reference for developers.
 Includes GitHub Actions workflows, code formatting, code linting, pre commit hooks, unit tests, etc.
 
 ## Content
-The app consists of simple example logic which is in works.
+The app consists of simple example logic, work in progress.
 
 ## App creation
 The app was created manually by initializing npm and adding packages and setup.
 
-## Additional packages
-* `ESLint` added with: `npm init @eslint/config`
-* `Prettier` added with: `npm install prettier --save-dev`
-* `Husky` added with: `npm install husky --save-dev`
-
-## About package
+## Package
 ### Scripts
 * `start`: Runs app
 * `build`: Builds app
@@ -32,6 +27,28 @@ The app was created manually by initializing npm and adding packages and setup.
 * `test`: Tests app with Jest
 * `prepare`: Prepare script to install Husky
 
+### Additional packages
+* `ESLint` added with: `npm init @eslint/config`
+* `Husky` added with: `npm install husky --save-dev`
+* `Jest` added with: `npm init jest --save-dev`
+* `Prettier` added with: `npm install prettier --save-dev`
+
+## Commit hooks
+Pre commit hooks are used to check code with `Prettier` and `ESLint`.
+Before each commit, staged files are checked with defined scripts and committing of unchecked code will be prevented.
+To commit code successfully, check `Prettier` and `Lint` paragraphs of this file.
+
+## Git branching strategy
+Two branches are present always and they should be merged from pull request:
+* `main` branch containing code ready for new versions
+* `dev` branch containing development advancements
+
+Other branches (dynamic branches) contain specific changes should have following prefixes, depending on type of changes they contain. Brief and descriptive description should be added after slash (e.g. feature/about-view):
+* `feature/` for new features
+* `issue/` for issues
+* `update/` for updates (files, dependencies, code, etc.)
+* `other/` for other changes
+
 ## GitHub Actions
 Defined workflows:
 * `CI` as a general CI workflow
@@ -39,14 +56,8 @@ Defined workflows:
 
 For more details see `.github/workflows/`.
 
-## Commit hooks
-Pre commit hooks are used to check code with `Prettier` and `ESLint`.
-Before each commit, staged files are checked with defined scripts and committing of unchecked code will be prevented.
-To commit code successfully, check `Prettier` and `Lint` paragraphs of this file.
-
 ## Requirements
 * node.js v14.0 and higher
-* npm v6.0 and higher
 
 ## Setup
 * In root run `npm install` to install dependencies
@@ -75,14 +86,3 @@ To commit code successfully, check `Prettier` and `Lint` paragraphs of this file
 * Click `Run workflow`
 * Select branch and enter next version (eg. major, minor, patch)
 * New version is created, commit and tag are pushed to repo
-
-## New release
-* Go to GitHub repo
-* Click on `Releases`
-* Click on `Create a new release`
-* Select a tag
-* Enter release title
-* Add release description from changelog notes
-
-## Developer
-**Matej Buljan**
