@@ -1,7 +1,7 @@
 {
-  "name": "typescript-custom-setup",
+  "name": "typescript-playground",
   "version": "0.1.0",
-  "description": "Standalone TypeScript app extended with additional libraries and setup to help develop better apps",
+  "description": "A TypeScript app extended with additional libraries and setup to help develop better apps",
   "main": "main.js",
   "scripts": {
     "start": "tsc && node ./dist/main.js",
