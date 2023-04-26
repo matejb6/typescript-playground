@@ -1,12 +1,10 @@
 # TypeScript Playground
 
-![GitHub package.json version](https://img.shields.io/github/package-json/v/matejb6/typescript-custom-setup)
-![GitHub Release Date](https://img.shields.io/github/release-date/matejb6/typescript-custom-setup)
-![GitHub last commit](https://img.shields.io/github/last-commit/matejb6/typescript-custom-setup)
-
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/matejb6/typescript-custom-setup/CI)
-![GitHub repo size](https://img.shields.io/github/repo-size/matejb6/typescript-custom-setup)
-![GitHub](https://img.shields.io/github/license/matejb6/typescript-custom-setup)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/matejb6/typescript-playground/ci.yml)
+![GitHub last commit](https://img.shields.io/github/last-commit/matejb6/typescript-playground)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/matejb6/typescript-playground)
+![GitHub repo size](https://img.shields.io/github/repo-size/matejb6/typescript-playground)
+![GitHub](https://img.shields.io/github/license/matejb6/typescript-playground)
 
 ## About
 A TypeScript app extended with additional libraries and setup to help develop better apps.
