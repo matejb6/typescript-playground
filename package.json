@@ -32,16 +32,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matejb6/typescript-custom-setup.git"
+    "url": "git+https://github.com/matejb6/typescript-playground.git"
   },
   "bugs": {
-    "url": "https://github.com/matejb6/typescript-custom-setup/issues"
+    "url": "https://github.com/matejb6/typescript-playground/issues"
   },
   "keywords": [
     "matejb6",
     "TypeScript",
-    "Custom",
-    "Setup"
+    "Playground"
   ],
   "author": {
     "name": "Matej Buljan",
@@ -49,7 +48,6 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">= 14.0.0",
-    "npm": ">= 6.0.0"
+    "node": ">= 14.0.0"
   }
 }
