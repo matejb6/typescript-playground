@@ -1,4 +1,4 @@
-# TypeScript Custom Setup
+# TypeScript Playground
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/matejb6/typescript-custom-setup)
 ![GitHub Release Date](https://img.shields.io/github/release-date/matejb6/typescript-custom-setup)
@@ -9,10 +9,9 @@
 ![GitHub](https://img.shields.io/github/license/matejb6/typescript-custom-setup)
 
 ## About
-Standalone TypeScript app extended with additional libraries and setup to help develop better apps.
+A TypeScript app extended with additional libraries and setup to help develop better apps.
 Main idea is to present a standalone TypeScript app with additional setup so developers can have it as a reference.
-Includes GitHub Actions workflows, code formatting, code linting, pre commit hooks, etc.
-Each file is covered with tests too.
+Includes GitHub Actions workflows, code formatting, code linting, pre commit hooks, unit tests, etc.
 
 ## Content
 The app consists of simple example logic which is in works.
