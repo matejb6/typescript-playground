@@ -9,6 +9,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 ### Fixed
 
+## [0.2.0] - 2023-04-26
+### Added
+- Jest unit tests
+### Changed
+- App name from "TypeScript Custom Setup" to "TypeScript Playground"
+- Package info and dependencies
+- ESLint rules
+- Readme
+- Shields.io badges
+- GitHub Actions workflows
+- License year
+### Fixed
+- Shields.io badges
+
 ## [0.1.0] - 2022-10-06
 ### Added
 - Readme
