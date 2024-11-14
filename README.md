@@ -57,7 +57,7 @@ Defined workflows:
 For more details see `.github/workflows/`.
 
 ## Requirements
-* node.js ^20.0.0
+* node.js ^20.18.0
 
 ## Setup
 * In root run `npm install` to install dependencies
