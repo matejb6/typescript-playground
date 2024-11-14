@@ -1,4 +1,4 @@
-import { Calc } from './calc';
+import { Calc } from './calc.ts';
 
 describe('Calc', () => {
   test('adds two numbers', () => {
