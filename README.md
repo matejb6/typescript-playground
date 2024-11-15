@@ -12,10 +12,10 @@ Main idea is to present a TypeScript app with additional setup and practices as 
 Includes GitHub Actions workflows, code formatting, code linting, pre commit hooks, unit tests, etc.
 
 ## Content
-The app consists of simple example logic, work in progress.
+This app consists of simple example logic.
 
 ## App creation
-The app was created manually by initializing npm and adding packages and setup.
+This app was created manually by initializing npm and adding packages and setup.
 
 ## Package
 ### Scripts
@@ -28,8 +28,8 @@ The app was created manually by initializing npm and adding packages and setup.
 * `prepare`: Prepare script to install Husky
 
 ### Additional packages
-* `ESLint` added with: `npm init @eslint/config`
-* `Husky` added with: `npm install husky --save-dev`
+* `ESLint` added with: `npm init @eslint/config@latest`
+* `Husky` added with: `npx husky init`
 * `Jest` added with: `npm init jest --save-dev`
 * `Prettier` added with: `npm install prettier --save-dev`
 
@@ -57,7 +57,7 @@ Defined workflows:
 For more details see `.github/workflows/`.
 
 ## Requirements
-* node.js v14.0 and higher
+* node.js ^20.18.0
 
 ## Setup
 * In root run `npm install` to install dependencies
