@@ -1,6 +1,6 @@
 {
   "name": "typescript-playground",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "A TypeScript app extended with additional libraries and setup to help develop better apps",
   "private": true,
   "type": "module",
