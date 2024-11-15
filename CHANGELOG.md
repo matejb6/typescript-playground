@@ -9,6 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 ### Fixed
 
+## [1.0.0] - 2024-11-15
+### Added
+- Calc class in main execution
+### Changed
+- Package update
+- Start and build process
+- tsconfig
+- GitHub Actions workflows
+
 ## [0.2.0] - 2023-04-26
 ### Added
 - Jest unit tests
